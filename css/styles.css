@@ -7,7 +7,7 @@
 }
 body {
   background: #ff7978;
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(../images/bg-intro-mobile.png);
 }
 .container {
   display: grid;
@@ -46,6 +46,10 @@ body {
   -webkit-box-shadow: 0px 7px 0px 0px rgba(219, 103, 104, 1);
   -moz-box-shadow: 0px 7px 0px 0px rgba(219, 103, 104, 1);
   box-shadow: 0px 7px 0px 0px rgba(219, 103, 104, 1);
+}
+.button-try:hover {
+  background: #756aca;
+  transition: 1s all ease;
 }
 .button-try a {
   color: #fff;
@@ -126,6 +130,10 @@ body {
   box-shadow: 0px 4px 0px 0px rgba(86, 181, 139, 1);
   margin-bottom: 1rem;
   cursor: pointer;
+}
+.form button:hover {
+  background: #31a06f;
+  transition: 1s all ease;
 }
 .form p {
   text-align: center;
